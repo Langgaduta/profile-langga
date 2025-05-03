@@ -942,10 +942,11 @@ main {
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: auto;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
+  display: block;
 }
 
 .project-img::before {
