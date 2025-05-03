@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Langga - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/profil.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profil.jpg" alt="Richard hanrick" width="80" class="rounded-circle">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick" style="font-size: 15px; margin-top : 5px">Lazzuardi Langga Duta Wijaya</h1>
+
+          <p class="title">Junior Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:langgalazzuardi@gmail.com" class="contact-link">langgalazzuardi@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telepon</p>
+
+              <a href="tel:+62895378060487" class="contact-link">+62 895-3780-60487</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Kelahiran</p>
+
+              <time datetime="2007-05-16">16 Mei 2007</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Lokasi</p>
+
+              <address>Bogor, Jawa Barat, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/lazzuardi-langga-duta-wijaya-1382282b1/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Langgaduta" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/langga.lzrd_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificate</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+ 
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Tentang saya</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Halo! Saya adalah seorang lulusan SMK Wikrama Bogor jurusan Pengembangan Perangkat Lunak dan Gim. Selama masa pendidikan, saya memperlajari berbagai teknologi pengembangan perangkat lunak, yang memberikan saya pemahaman
+            mendalam tentang dunia teknologi.
+          </p>
+
+          <p>
+            Selama saya sekolah, saya telah terlibat dalam berbagai proyek, mulai dari proyek sederhana hingga yang lebih kompleks. Dalam perjalanan karier saya, saya terus mengembangkan keterampilan dan pengetahuan di bidang teknologi
+              untuk menghadapi tantangan masa depan.
+          </p>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Pendidikan</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Universitas Pendidikan Indonesia</h4>
+
+              <span>2025 - Sekarang</span>
+
+              <p class="timeline-text">Rekayasa Perangkat Lunak</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SMK Wikrama Bogor</h4>
+
+              <span>2022 — Sekarang</span>
+
+              <p class="timeline-text">Pengembangan Perangkat Lunak dan Gim</p>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Pengalaman</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Presiden Direktur</h4>
+              <span>Januari 2025 - Sekarang</span>
+              <p class="timeline-text">Apala Project</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Fullstack Developer Freelance</h4>
+              <span>Juni - Desember 2024</span>
+              <p class="timeline-text">PT Putra Nulah Inovasi Bangsa - Jinno</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Frontend Developer Intern</h4>
+              <span>Januari - Juni 2024</span>
+              <p class="timeline-text">PT Niaga Expert Teknologi - NEXT</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Pelajar SMK Wikrama Bogor</h4>
+              <span>Juli 2022 - Juli 2025</span>
+              <p class="timeline-text">SMK Wikrama Bogor</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Keterampilan Pemrograman</h3>
+        
+          <div class="content-card" style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 20px;  border-radius: 8px;">
+            <div class="row" style="width: 100%; display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+              <div class="col-md-2 col-sm-4" style="text-align: center;">
+                <img src="./assets/images/laravel (1).png" alt="Laravel" style="width: 100px; height: 100px; object-fit: contain; display: block; margin: 0 auto; border-radius: 8px;">
+              </div>
+              <div class="col-md-2 col-sm-4" style="text-align: center;">
+                <img src="./assets/images/react-removebg-preview.png" alt="React" style="width: 100px; height: 100px; object-fit: contain; display: block; margin: 0 auto; border-radius: 8px;">
+              </div>
+              <div class="col-md-2 col-sm-4" style="text-align: center;">
+                <img src="./assets/images/bs-5.png" alt="Bootstrap 5" style="width: 100px; height: 100px; object-fit: contain; display: block; margin: 0 auto; border-radius: 8px;">
+              </div>
+              <div class="col-md-2 col-sm-4" style="text-align: center;">
+                <img src="./assets/images/tailw-removebg-preview.png" alt="Tailwind" style="width: 100px; height: 100px; object-fit: contain; display: block; margin: 0 auto; border-radius: 8px;">
+              </div>
+              <div class="col-md-2 col-sm-4" style="text-align: center;">
+                <img src="./assets/images/mySql.png" alt="MySQL" style="width: 100px; height: 100px; object-fit: contain; display: block; margin: 0 auto; border-radius: 8px;">
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Professional</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Music</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>professional</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Music</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/learntera.PNG" alt="learntera.id" loading="lazy"/>
+                </figure>
+
+                <h3 class="project-title">Learntera.id</h3>
+
+                <p class="project-category">Learning Management System - Laravel</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/inventaris.PNG" alt="inventaris" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">SIM Inventaris Wikrama</h3>
+
+                <p class="project-category">Inventory Management System - Laravel</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/masjid.PNG" alt="masjid" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Landing Page Masjid Al-Ikram</h3>
+
+                <p class="project-category">Bootstrap CSS</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/company.PNG" alt="company" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Company Profile</h3>
+
+                <p class="project-category">Compro - VueJs</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Hunter.PNG" alt="hunter" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Hunter Next Hunter</h3>
+
+                <p class="project-category">Talent Management Platform - ReactJs</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/POS.PNG" alt="pos" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">POS NEXT IT</h3>
+
+                <p class="project-category">Point Of Sale - ReactJs</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kasir.PNG" alt="kasir" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">KasirApp</h3>
+
+                <p class="project-category">Cashier Management System - Laravel</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/flutter.jpg" alt="flutter" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Landing Page KasirApp Flutter</h3>
+
+                <p class="project-category">Flutter</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/piket.PNG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">UI/UX PiketKuy</h3>
+
+                <p class="project-category">Web design - Figma</p>
+              </a>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/thpanggung.PNG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Juara 1 Band Singularity 2024</h3>
+
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/invictus2023.png" alt="invictus" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Juara 1 Band invictus 2023</h3>
+
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+
+            
+            <li class="project-item active" data-filter-item data-category="music" style="visibility: hidden;">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">-</h3>
+
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kbof2023.PNG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Juara 3 Band KBOF 2023</h3>
+
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kbof2024.PNG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Juara 3 Band KBOF 2024</h3>
+
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mustrapanggung.PNG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Juara 3 FLS2N Musik Tradisional Tk. Provinsi</h3>
+
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CERTIFICATE
+      -->
+
+      <article class="portfolio" data-page="certificate">
+
+        <header>
+          <h2 class="h2 article-title">Sertifikat</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Professional</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Music</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>professional</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Music</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/sertifcyberlabs.png" alt="cyberlasb" loading="lazy"/>
+                </figure>
+
+                <h3 class="project-title">Cyeberlabs</h3></h3>
+
+                <p class="project-category">Backend Development with Javascript</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifwantek.jpg" alt="wantek" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">WAN Teknologi</h3>
+
+                <p class="project-category">Frontend Development with VueJs</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifttg1.PNG" alt="ttg" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Teknologi Tepat Guna Competition</h3>
+
+                <p class="project-category">IOT Smart Watering Farm</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifmeniti.jpg" alt="meniti" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Dicoding</h3>
+
+                <p class="project-category">Meniti Karir Sebagai Software Developer</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifcmd.png" alt="cmd" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Progate</h3>
+
+                <p class="project-category">Kursus CMD</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="professional">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Sertifikat NEXT-IT - PKL - Langga.png" alt="next" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">NEXT - IT</h3>
+
+                <p class="project-category">PKL di PT Niaga Expert Teknologi</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifkbof23.jpg" alt="kbof2023" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">KBOF 2023</h3>
+
+                <p class="project-category">Juara 3 Band Competition</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifkbof24.PNG" alt="kbof2024" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">KBOF 2024</h3>
+
+                <p class="project-category">Juara 3 Band Competition</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifinvictus.jpg" alt="inv" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Invictus 2024</h3>
+
+                <p class="project-category">Juara 1 Band Competition</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifmustraprov.jpg" alt="mustra" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">FLS2N 2023</h3>
+
+                <p class="project-category">Juara 3 Musik Tradisional Tk. Provinsi</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sertifciptakota.jpg" alt="cipta" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">FLS2N 2024</h3>
+
+                <p class="project-category">Juara 1 Cipta Lagu Tk. Kota</p>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Kontak Saya</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <!-- <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400"
+              height="300"
+              loading="lazy"
+            ></iframe> -->
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.837967966337!2d106.86234447372708!3d-6.666991765174132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c8ffffbd7909%3A0x8d30464536b7e8bb!2sGg.%20Inpres%2C%20Bendungan%2C%20Kec.%20Ciawi%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016720!5e0!3m2!1sid!2sid!4v1745983398987!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <!-- <h3 class="h3 form-title">Contact Form</h3> -->
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nama Lengkap" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="Alamat Email" required data-form-input />
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Pesan" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Kirim Pesan</span>
+            </button>
+          </form>
+        </section>
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
