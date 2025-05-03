@@ -1,19 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -336,7 +321,7 @@ main {
   border-radius: 20px;
 }
 
-.avatar-box img {  /* Pastikan width dan height sama */
+.avatar-box img {  
   border-radius: 50%;
   object-fit: cover; }
 
@@ -870,9 +855,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
-
-
 
 
 /*-----------------------------------*\
